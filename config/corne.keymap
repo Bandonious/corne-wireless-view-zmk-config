@@ -41,10 +41,10 @@
 
             display-name = "BRANDX";
             bindings = <
-&kp ESC    &kp Q            &kp W            &kp F                &kp P              &kp B          &kp J      &kp L                 &kp U             &kp Y            &kp SEMI  &kp BSPC
-&caps_bd   &hrm LEFT_WIN A  &hrm LEFT_ALT R  &hrm LEFT_CONTROL S  &hrm T LEFT_SHIFT  &kp G          &kp M      &hrm RIGHT_CONTROL N  &hrm RIGHT_ALT E  &hrm LEFT_WIN I  &kp SEMI  &kp SQT
-&kp LSHFT  &kp Z            &kp X            &kp C                &kp D              &kp V          &kp K      &kp H                 &kp COMMA         &kp DOT          &kp FSLH  &kp EXCLAMATION
-                                             &lt 5 ESC            &lt 1 TAB          &lt 6 SPACE    &lt 2 RET  &lt 3 BACKSPACE       &lt 4 DEL
+&kp ESC    &kp Q            &kp W            &kp F                &kp P              &kp B          &kp J      &kp L               &kp U                 &kp Y             &kp SEMI          &kp BSPC
+&caps_bd   &hrm LEFT_WIN A  &hrm LEFT_ALT R  &hrm LEFT_CONTROL S  &hrm LEFT_SHIFT T  &kp G          &kp M      &hrm RIGHT_SHIFT N  &hrm RIGHT_CONTROL E  &hrm RIGHT_ALT I  &hrm RIGHT_WIN O  &kp SQT
+&kp LSHFT  &kp Z            &kp X            &kp C                &kp D              &kp V          &kp K      &kp H               &kp COMMA             &kp DOT           &kp FSLH          &kp EXCLAMATION
+                                             &lt 5 ESC            &lt 1 TAB          &lt 6 SPACE    &lt 2 RET  &lt 3 BACKSPACE     &lt 4 DEL
             >;
         };
 
@@ -73,10 +73,10 @@
 
             display-name = "NUM";
             bindings = <
-&trans  &trans        &kp KP_NUMBER_7  &kp KP_NUMBER_8   &kp KP_NUMBER_9  &kp KP_PLUS        &kp PLUS   &kp N7  &kp N8  &kp N9  &kp RPAR  &kp BSPC
-&trans  &kp LEFT_WIN  &kp LEFT_ALT     &kp LEFT_CONTROL  &kp LEFT_SHIFT   &kp KP_MINUS       &kp MINUS  &kp N4  &kp N5  &kp N6  &kp BSLH  &kp GRAVE
-&trans  &trans        &trans           &trans            &trans           &kp KP_MULTIPLY    &kp UNDER  &kp N1  &kp N2  &kp N3  &kp PIPE  &kp TILDE
-                                       &trans            &kp KP_DIVIDE    &kp KP_EQUAL       &kp EQUAL  &trans  &kp N0
+&trans  &trans   &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp KP_PLUS        &kp PLUS   &kp N7  &kp N8  &kp N9  &kp RPAR  &kp DELETE
+&trans  &trans   &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp KP_MINUS       &kp MINUS  &kp N4  &kp N5  &kp N6  &kp BSLH  &kp GRAVE
+&trans  &kp DOT  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp KP_MULTIPLY    &kp UNDER  &kp N1  &kp N2  &kp N3  &kp PIPE  &kp TILDE
+                                  &kp KP_NUMBER_0  &kp KP_DIVIDE    &kp KP_EQUAL       &kp EQUAL  &trans  &kp N0
             >;
         };
 
