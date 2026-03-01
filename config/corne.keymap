@@ -42,10 +42,10 @@
 
             display-name = "BRANDX";
             bindings = <
-&kp ESC    &kp Q            &kp W            &kp F                &kp P              &kp B          &kp J      &kp L            &kp U      &kp Y    &kp SEMI  &kp BSPC
-&caps_bd   &hrm LEFT_WIN A  &hrm LEFT_ALT R  &hrm LEFT_CONTROL S  &hrm T LEFT_SHIFT  &kp G          &kp H      &kp J            &kp K      &kp L    &kp SEMI  &kp SQT
-&kp LSHFT  &kp Z            &kp X            &kp C                &kp D              &kp V          &kp K      &kp H            &kp COMMA  &kp DOT  &kp FSLH  &kp EXCLAMATION
-                                             &lt 5 ESC            &lt 1 TAB          &lt 6 SPACE    &lt 2 RET  &lt 3 BACKSPACE  &lt 4 DEL
+&kp ESC    &kp Q            &kp W            &kp F                &kp P              &kp B          &kp J      &kp L                 &kp U             &kp Y            &kp SEMI  &kp BSPC
+&caps_bd   &hrm LEFT_WIN A  &hrm LEFT_ALT R  &hrm LEFT_CONTROL S  &hrm T LEFT_SHIFT  &kp G          &kp M      &hrm RIGHT_CONTROL N  &hrm RIGHT_ALT E  &hrm LEFT_WIN I  &kp SEMI  &kp SQT
+&kp LSHFT  &kp Z            &kp X            &kp C                &kp D              &kp V          &kp K      &kp H                 &kp COMMA         &kp DOT          &kp FSLH  &kp EXCLAMATION
+                                             &lt 5 ESC            &lt 1 TAB          &lt 6 SPACE    &lt 2 RET  &lt 3 BACKSPACE       &lt 4 DEL
             >;
         };
 
