@@ -66,7 +66,7 @@
                 <&macro_press>,
                 <&kp LEFT_ALT>,
                 <&macro_tap>,
-                <&kp KP_NUMBER_2 &kp KP_NUMBER_0 &kp KP_NUMBER_1 &kp KP_NUMBER_4>,
+                <&kp KP_NUMBER_0 &kp KP_NUMBER_1 &kp KP_NUMBER_5 &kp KP_NUMBER_1>,
                 <&macro_release>,
                 <&kp LEFT_ALT>;
 
@@ -135,7 +135,7 @@
 &trans  &trans   &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp KP_PLUS        &trans  &trans           &trans             &trans         &trans         &trans
 &trans  &trans   &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp KP_MINUS       &trans  &kp RIGHT_SHIFT  &kp RIGHT_CONTROL  &kp RIGHT_ALT  &kp RIGHT_WIN  &trans
 &trans  &kp DOT  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp KP_MULTIPLY    &trans  &trans           &trans             &trans         &trans         &trans
-                                  &kp KP_NUMBER_0  &kp KP_DIVIDE    &kp KP_EQUAL       &trans  &trans           &trans
+                                  &kp KP_NUMBER_0  &kp KP_DIVIDE    &kp EQUAL          &trans  &trans           &trans
             >;
         };
 
@@ -172,10 +172,10 @@
         act_layer {
             display-name = "ACT";
             bindings = <
-&trans  &trans     &trans         &trans     &trans     &trans       &trans         &trans           &trans             &trans         &trans         &trans
-&trans  &trans     &trans         &trans     &trans     &trans       &trans         &kp RIGHT_SHIFT  &kp RIGHT_CONTROL  &kp RIGHT_ALT  &kp RIGHT_WIN  &trans
-&trans  &kp LC(Z)  &kp LC(LS(Z))  &kp LC(X)  &kp LC(C)  &kp LC(V)    &kp C_AL_CALC  &trans           &trans             &trans         &trans         &trans
-                                  &trans     &trans     &trans       &trans         &trans           &trans
+&trans          &trans     &trans         &trans     &trans     &trans           &trans         &trans           &trans             &trans         &trans         &trans
+&trans          &trans     &trans         &trans     &trans     &kp LS(LC(V))    &trans         &kp RIGHT_SHIFT  &kp RIGHT_CONTROL  &kp RIGHT_ALT  &kp RIGHT_WIN  &trans
+&kp LG(PERIOD)  &kp LC(Z)  &kp LC(LS(Z))  &kp LC(X)  &kp LC(C)  &kp LC(V)        &kp C_AL_CALC  &trans           &trans             &trans         &trans         &trans
+                                          &trans     &trans     &trans           &trans         &trans           &trans
             >;
         };
     };
