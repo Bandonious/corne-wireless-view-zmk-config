@@ -14,6 +14,7 @@ manifest:
     - name: nice-view-mod-bd
       remote: bandonious
       revision: main
+      path: modules/nice-view-mod-bd
 
   self:
     path: config
