@@ -99,10 +99,10 @@
 
             display-name = "BRANDX";
             bindings = <
-&kp ESC    &kp Q            &kp W            &kp F                &kp P              &kp B          &kp J            &kp L               &kp U                 &kp Y             &kp SEMI          &kp DEL
-&caps_bd   &hrm LEFT_WIN A  &hrm LEFT_ALT R  &hrm LEFT_CONTROL S  &hrm LEFT_SHIFT T  &kp G          &kp M            &hrm RIGHT_SHIFT N  &hrm RIGHT_CONTROL E  &hrm RIGHT_ALT I  &hrm RIGHT_WIN O  &kp SQT
-&kp LSHFT  &kp Z            &kp X            &kp C                &kp D              &kp V          &kp K            &kp H               &kp COMMA             &kp DOT           &kp FSLH          &kp EXCLAMATION
-                                             &lt 5 ESC            &lt 1 TAB          &lt 6 SPACE    &lt 2 BACKSPACE  &lt 3 RETURN        &lt 4 DEL
+&kp ESC    &kp Q            &kp W            &kp F                &kp P              &kp B          &kp J      &kp L               &kp U                 &kp Y             &kp SEMI          &kp DEL
+&caps_bd   &hrm LEFT_WIN A  &hrm LEFT_ALT R  &hrm LEFT_CONTROL S  &hrm LEFT_SHIFT T  &kp G          &kp M      &hrm RIGHT_SHIFT N  &hrm RIGHT_CONTROL E  &hrm RIGHT_ALT I  &hrm RIGHT_WIN O  &kp SQT
+&kp LSHFT  &kp Z            &kp X            &kp C                &kp D              &kp V          &kp K      &kp H               &kp COMMA             &kp DOT           &kp FSLH          &kp EXCLAMATION
+                                             &lt 5 ESC            &lt 1 TAB          &lt 6 SPACE    &lt 2 RET  &lt 3 BACKSPACE     &lt 4 DEL
             >;
         };
 
@@ -179,3 +179,5 @@
         };
     };
 };
+
+
