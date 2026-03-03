@@ -2,8 +2,8 @@ manifest:
   remotes:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
-    - name: gpeye
-      url-base: https://github.com/GPeye
+    - name: bandonious
+      url-base: https://github.com/Bandonious
 
   projects:
     - name: zmk
@@ -11,8 +11,8 @@ manifest:
       revision: v0.3
       import: app/west.yml
 
-    - name: urchin-peripheral-animation
-      remote: gpeye
+    - name: nice-view-mod-bd
+      remote: bandonious
       revision: main
 
   self:
