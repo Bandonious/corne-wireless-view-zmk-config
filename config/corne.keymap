@@ -99,10 +99,10 @@
 
             display-name = "BRANDX";
             bindings = <
-&kp ESC    &kp Q            &kp W            &kp F                &kp P              &kp B          &kp J      &kp L               &kp U                 &kp Y             &kp SEMI          &kp DEL
-&caps_bd   &hrm LEFT_WIN A  &hrm LEFT_ALT R  &hrm LEFT_CONTROL S  &hrm LEFT_SHIFT T  &kp G          &kp M      &hrm RIGHT_SHIFT N  &hrm RIGHT_CONTROL E  &hrm RIGHT_ALT I  &hrm RIGHT_WIN O  &kp SQT
-&kp LSHFT  &kp Z            &kp X            &kp C                &kp D              &kp V          &kp K      &kp H               &kp COMMA             &kp DOT           &kp FSLH          &kp EXCLAMATION
-                                             &lt 5 ESC            &lt 1 TAB          &lt 6 SPACE    &lt 2 RET  &lt 3 BACKSPACE     &lt 4 DEL
+&kp ESC       &kp Q            &kp W            &kp F                &kp P              &kp B           &kp J        &kp L               &kp U                 &kp Y             &kp SEMI          &kp DEL
+&caps_bd      &hrm LEFT_WIN A  &hrm LEFT_ALT R  &hrm LEFT_CONTROL S  &hrm LEFT_SHIFT T  &kp G           &kp M        &hrm RIGHT_SHIFT N  &hrm RIGHT_CONTROL E  &hrm RIGHT_ALT I  &hrm RIGHT_WIN O  &kp SQT
+&kp LEFT_WIN  &kp Z            &kp X            &kp C                &kp D              &kp V           &kp K        &kp H               &kp COMMA             &kp DOT           &kp FSLH          &kp EXCLAMATION
+                                                &lt 5 ESC            &lt 2 TAB          &lt 6 RETURN    &lt 1 SPACE  &lt 3 BACKSPACE     &lt 4 DEL
             >;
         };
 
@@ -115,10 +115,10 @@
 
             display-name = "NAV";
             bindings = <
-&none  &none         &none         &kp LG(LC(LEFT_ARROW))  &kp LC(LG(RIGHT_ARROW))  &kp LG(TAB)    &kp HOME       &kp LC(LEFT_ARROW)  &kp UP_ARROW    &kp LC(RIGHT_ARROW)  &kp END  &none
-&none  &kp LEFT_WIN  &kp LEFT_ALT  &kp LEFT_CONTROL        &kp LEFT_SHIFT           &none          &kp PAGE_UP    &kp LEFT_ARROW      &kp DOWN_ARROW  &kp RIGHT_ARROW      &none    &none
-&none  &none         &none         &none                   &none                    &none          &kp PAGE_DOWN  &none               &none           &none                &none    &none
-                                   &trans                  &trans                   &trans         &trans         &trans              &trans
+&none   &kp END  &kp LC(LEFT_ARROW)  &kp UP_ARROW    &kp LC(RIGHT_ARROW)  &kp HOME         &none   &none            &none              &none          &none  &none
+&none   &none    &kp LEFT_ARROW      &kp DOWN_ARROW  &kp RIGHT_ARROW      &kp PAGE_UP      &none   &kp RIGHT_SHIFT  &kp RIGHT_CONTROL  &kp RIGHT_ALT  &none  &none
+&trans  &none    &none               &none           &none                &kp PAGE_DOWN    &none   &none            &none              &none          &none  &none
+                                     &trans          &trans               &trans           &trans  &trans           &trans
             >;
         };
 
@@ -131,19 +131,19 @@
 
             display-name = "NUM";
             bindings = <
-&none  &none    &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp KP_PLUS        &none   &none            &none              &none          &none          &none
-&none  &none    &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp KP_MINUS       &none   &kp RIGHT_SHIFT  &kp RIGHT_CONTROL  &kp RIGHT_ALT  &kp RIGHT_WIN  &none
-&none  &kp DOT  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp KP_MULTIPLY    &none   &none            &none              &none          &none          &none
-                                 &kp KP_NUMBER_0  &kp KP_DIVIDE    &kp EQUAL          &trans  &trans           &trans
+&none         &none  &none         &none             &none           &none     &kp KP_PLUS      &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &none       &none
+&none         &none  &kp LEFT_ALT  &kp LEFT_CONTROL  &kp LEFT_SHIFT  &none     &kp KP_MINUS     &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &none       &none
+&kp LEFT_WIN  &none  &none         &none             &none           &none     &kp KP_MULTIPLY  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp KP_DOT  &none
+                                   &trans            &trans          &trans    &kp EQUAL        &kp KP_DIVIDE    &kp KP_NUMBER_0
             >;
         };
 
         sys_layer {
             display-name = "SYS";
             bindings = <
-&kp GRAVE  &kp POUND    &kp DOLLAR  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &emdash        &none   &none            &none              &none          &none          &none
-&kp LCTRL  &kp PERCENT  &bulllet    &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &td_bkslsh     &none   &kp RIGHT_SHIFT  &kp RIGHT_CONTROL  &kp RIGHT_ALT  &kp RIGHT_WIN  &none
-&none      &kp CARET    &degree     &kp LEFT_BRACE        &kp RIGHT_BRACE        &td_dash       &none   &none            &none              &none          &none          &none
+&kp GRAVE  &kp POUND    &kp DOLLAR  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &emdash        &none   &none            &none              &none          &none  &none
+&kp LCTRL  &kp PERCENT  &bulllet    &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &td_bkslsh     &none   &kp RIGHT_SHIFT  &kp RIGHT_CONTROL  &kp RIGHT_ALT  &none  &none
+&none      &kp CARET    &degree     &kp LEFT_BRACE        &kp RIGHT_BRACE        &td_dash       &none   &none            &none              &none          &none  &none
                                     &none                 &kp AMPERSAND          &kp AT_SIGN    &trans  &trans           &trans
             >;
         };
@@ -151,9 +151,9 @@
         func_layer {
             display-name = "FUNC";
             bindings = <
-&kp C_BRI_UP  &kp F1  &kp F2   &kp F3   &kp F4   &none     &none   &none            &none              &none          &none          &none
-&kp C_BRI_DN  &kp F5  &kp F6   &kp F7   &kp F8   &none     &none   &kp RIGHT_SHIFT  &kp RIGHT_CONTROL  &kp RIGHT_ALT  &kp RIGHT_WIN  &none
-&none         &kp F9  &kp F10  &kp F11  &kp F12  &none     &none   &none            &none              &none          &none          &none
+&kp C_BRI_UP  &kp F1  &kp F2   &kp F3   &kp F4   &none     &none   &none            &none              &none          &none  &none
+&kp C_BRI_DN  &kp F5  &kp F6   &kp F7   &kp F8   &none     &none   &kp RIGHT_SHIFT  &kp RIGHT_CONTROL  &kp RIGHT_ALT  &none  &none
+&none         &kp F9  &kp F10  &kp F11  &kp F12  &none     &none   &none            &none              &none          &none  &none
                                &trans   &trans   &trans    &trans  &trans           &trans
             >;
         };
@@ -161,9 +161,9 @@
         media_layer {
             display-name = "MEDIA";
             bindings = <
-&none  &none         &none         &none             &none           &none     &bt BT_SEL 0      &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &bt BT_CLR
-&none  &kp LEFT_WIN  &kp LEFT_ALT  &kp LEFT_CONTROL  &kp LEFT_SHIFT  &none     &kp C_MUTE        &kp C_VOL_DN  &kp C_VOL_UP  &none         &none         &none
-&none  &none         &none         &none             &none           &none     &none             &kp C_PREV    &kp C_NEXT    &none         &none         &none
+&none         &none  &none         &none             &none           &none     &bt BT_SEL 0      &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &bt BT_CLR
+&none         &none  &kp LEFT_ALT  &kp LEFT_CONTROL  &kp LEFT_SHIFT  &none     &kp C_MUTE        &kp C_VOL_DN  &kp C_VOL_UP  &none         &none         &none
+&kp LEFT_WIN  &none  &none         &none             &none           &none     &none             &kp C_PREV    &kp C_NEXT    &none         &none         &none
                                    &trans            &trans          &trans    &kp C_PLAY_PAUSE  &trans        &trans
             >;
         };
@@ -171,13 +171,11 @@
         act_layer {
             display-name = "ACT";
             bindings = <
-&none           &none      &none          &none      &none      &kp LG(LS(S))    &none          &none            &none              &none          &none          &none
-&none           &none      &none          &none      &none      &kp LS(LC(V))    &none          &kp RIGHT_SHIFT  &kp RIGHT_CONTROL  &kp RIGHT_ALT  &kp RIGHT_WIN  &none
-&kp LG(PERIOD)  &kp LC(Z)  &kp LC(LS(Z))  &kp LC(X)  &kp LC(C)  &kp LC(V)        &kp C_AL_CALC  &none            &none              &none          &none          &none
-                                          &trans     &trans     &trans           &trans         &trans           &trans
+&kp LG(DOT)  &kp LC(Y)      &none      &kp LG(LC(LEFT_ARROW))  &kp LG(LC(RIGHT_ARROW))  &kp LG(TAB)      &kp LS(LG(S))  &none            &none              &none          &none  &none
+&none        &kp LC(LS(Z))  &none      &kp LC(S)               &none                    &kp LS(LC(V))    &none          &kp RIGHT_SHIFT  &kp RIGHT_CONTROL  &kp RIGHT_ALT  &none  &none
+&trans       &kp LC(Z)      &kp LC(X)  &kp LC(C)               &kp LC(D)                &kp LC(V)        &kp C_AL_CALC  &none            &none              &none          &none  &none
+                                       &trans                  &trans                   &trans           &trans         &trans           &trans
             >;
         };
     };
 };
-
-
