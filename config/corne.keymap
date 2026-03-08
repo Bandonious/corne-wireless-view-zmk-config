@@ -129,7 +129,7 @@
             bindings = <
 &kp ESC       &kp Q  &kp W            &kp F                &kp P              &kp B          &kp J            &kp L               &kp U                 &kp Y             &kp SEMI  &kp DEL
 &caps_bd      &kp A  &hrm LEFT_ALT R  &hrm LEFT_CONTROL S  &hrm LEFT_SHIFT T  &kp G          &kp M            &hrm RIGHT_SHIFT N  &hrm RIGHT_CONTROL E  &hrm RIGHT_ALT I  &kp O     &kp SQT
-&kp LEFT_WIN  &kp Z  &kp X            &kp C                &kp D              &kp V          &kp K            &kp H               &kp COMMA             &kp DOT           &kp FSLH  &kp EXCLAMATION
+&kp LEFT_WIN  &kp Z  &kp X            &kp C                &kp D              &kp V          &kp K            &kp H               &kp COMMA             &kp DOT           &kp FSLH  &mt LEFT_WIN EXCLAMATION
                                       &lt 5 ESC            &lt 2 RET          &lt 6 SPACE    &lt 1 BACKSPACE  &lt 3 TAB           &lt 4 DEL
             >;
         };
@@ -171,7 +171,7 @@
             bindings = <
 &kp GRAVE  &kp POUND    &kp DOLLAR  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &emdash        &none   &none            &none              &none          &none  &none
 &kp LCTRL  &kp PERCENT  &bulllet    &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &td_bkslsh     &none   &kp RIGHT_SHIFT  &kp RIGHT_CONTROL  &kp RIGHT_ALT  &none  &none
-&none      &kp CARET    &degree     &kp LEFT_BRACE        &kp RIGHT_BRACE        &td_dash       &none   &none            &none              &none          &none  &none
+&none      &kp CARET    &degree     &kp LEFT_BRACE        &kp RIGHT_BRACE        &td_dash       &none   &none            &none              &none          &none  &kp LEFT_WIN
                                     &none                 &kp AMPERSAND          &kp AT_SIGN    &trans  &trans           &trans
             >;
         };
@@ -181,7 +181,7 @@
             bindings = <
 &kp C_BRI_UP  &kp F1  &kp F2   &kp F3   &kp F4   &none     &none   &none            &none              &none          &none  &none
 &kp C_BRI_DN  &kp F5  &kp F6   &kp F7   &kp F8   &none     &none   &kp RIGHT_SHIFT  &kp RIGHT_CONTROL  &kp RIGHT_ALT  &none  &none
-&none         &kp F9  &kp F10  &kp F11  &kp F12  &none     &none   &none            &none              &none          &none  &none
+&none         &kp F9  &kp F10  &kp F11  &kp F12  &none     &none   &none            &none              &none          &none  &kp LEFT_WIN
                                &trans   &trans   &trans    &trans  &trans           &trans
             >;
         };
