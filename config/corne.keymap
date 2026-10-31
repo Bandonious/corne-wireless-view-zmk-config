@@ -199,10 +199,20 @@
         act_layer {
             display-name = "ACT";
             bindings = <
-&kp LG(DOT)  &kp LC(Y)      &none      &kp LG(LC(LEFT_ARROW))  &kp LG(LC(RIGHT_ARROW))  &kp LG(TAB)      &kp LS(LG(S))  &none            &none              &none          &none  &none
+&kp LG(DOT)  &kp LC(Y)      &none      &kp LG(LC(LEFT_ARROW))  &kp LG(LC(RIGHT_ARROW))  &kp LG(TAB)      &kp LS(LG(S))  &none            &none              &none          &none  &to 7
 &none        &kp LC(LS(Z))  &none      &kp LC(S)               &none                    &kp LS(LC(V))    &none          &kp RIGHT_SHIFT  &kp RIGHT_CONTROL  &kp RIGHT_ALT  &none  &none
 &trans       &kp LC(Z)      &kp LC(X)  &kp LC(C)               &kp LC(D)                &kp LC(V)        &kp C_AL_CALC  &none            &none              &none          &none  &none
                                        &trans                  &trans                   &trans           &trans         &trans           &trans
+            >;
+        };
+
+        wow_layer {
+            display-name = "WOW";
+            bindings = <
+&kp TAB       &kp Q  &kp W            &kp F                &kp P              &kp B          &kp J            &kp L               &kp U                 &kp Y             &kp SEMI  &to 0
+&caps_bd      &kp A  &hrm LEFT_ALT R  &hrm LEFT_CONTROL S  &hrm LEFT_SHIFT T  &kp G          &kp M            &hrm RIGHT_SHIFT N  &hrm RIGHT_CONTROL E  &hrm RIGHT_ALT I  &kp O     &kp SQT
+&kp LEFT_WIN  &kp Z  &kp X            &kp C                &kp D              &kp V          &kp K            &kp H               &kp COMMA             &kp DOT           &kp FSLH  &mt LEFT_WIN EXCLAMATION
+                                      &lt 5 ESC            &lt 2 RET          &lt 6 SPACE    &lt 1 BACKSPACE  &lt 3 TAB           &lt 4 DEL
             >;
         };
     };
