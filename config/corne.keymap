@@ -179,10 +179,10 @@
         func_layer {
             display-name = "FUNC";
             bindings = <
-&kp C_BRI_UP  &kp F1  &kp F2   &kp F3   &kp F4   &none     &none   &none            &none              &none          &none  &none
-&kp C_BRI_DN  &kp F5  &kp F6   &kp F7   &kp F8   &none     &none   &kp RIGHT_SHIFT  &kp RIGHT_CONTROL  &kp RIGHT_ALT  &none  &none
-&none         &kp F9  &kp F10  &kp F11  &kp F12  &none     &none   &none            &none              &none          &none  &kp LEFT_WIN
-                               &trans   &trans   &trans    &trans  &trans           &trans
+&kp C_BRI_UP  &none  &kp F1  &kp F2   &kp F3   &kp F4     &none   &none            &none              &none          &none  &none
+&kp C_BRI_DN  &none  &kp F5  &kp F6   &kp F7   &kp F8     &none   &kp RIGHT_SHIFT  &kp RIGHT_CONTROL  &kp RIGHT_ALT  &none  &none
+&none         &none  &kp F9  &kp F10  &kp F11  &kp F12    &none   &none            &none              &none          &none  &kp LEFT_WIN
+                             &trans   &trans   &trans     &trans  &trans           &trans
             >;
         };
 
@@ -212,7 +212,27 @@
 &kp TAB       &kp Q  &kp W            &kp F                &kp P              &kp B          &kp J            &kp L               &kp U                 &kp Y             &kp SEMI  &to 0
 &caps_bd      &kp A  &hrm LEFT_ALT R  &hrm LEFT_CONTROL S  &hrm LEFT_SHIFT T  &kp G          &kp M            &hrm RIGHT_SHIFT N  &hrm RIGHT_CONTROL E  &hrm RIGHT_ALT I  &kp O     &kp SQT
 &kp LEFT_WIN  &kp Z  &kp X            &kp C                &kp D              &kp V          &kp K            &kp H               &kp COMMA             &kp DOT           &kp FSLH  &mt LEFT_WIN EXCLAMATION
-                                      &lt 5 ESC            &lt 2 RET          &lt 6 SPACE    &lt 1 BACKSPACE  &lt 3 TAB           &lt 4 DEL
+                                      &lt 5 ESC            &lt 9 RET          &lt 8 SPACE    &lt 1 BACKSPACE  &lt 3 TAB           &lt 4 DEL
+            >;
+        };
+
+        wow_mod_1 {
+            display-name = "WOW 1";
+            bindings = <
+&none   &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5    &none   &none            &none              &none          &none  &to 7
+&none   &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0    &none   &kp RIGHT_SHIFT  &kp RIGHT_CONTROL  &kp RIGHT_ALT  &none  &none
+&trans  &kp LC(Z)     &kp LC(X)     &kp LC(C)     &kp LC(D)     &kp LC(V)       &none   &none            &none              &none          &none  &none
+                                    &trans        &trans        &trans          &trans  &trans           &trans
+            >;
+        };
+
+        wow_mod_2 {
+            display-name = "WOW 2";
+            bindings = <
+&none   &kp LC(NUMBER_1)  &kp LC(NUMBER_2)  &kp LC(NUMBER_3)  &kp LC(NUMBER_4)  &kp LC(NUMBER_5)    &none   &none            &none              &none          &none  &to 7
+&none   &kp LC(NUMBER_6)  &kp LC(NUMBER_7)  &kp LC(NUMBER_8)  &kp LC(NUMBER_9)  &kp LC(NUMBER_0)    &none   &kp RIGHT_SHIFT  &kp RIGHT_CONTROL  &kp RIGHT_ALT  &none  &none
+&trans  &kp LC(Z)         &kp LC(X)         &kp LC(C)         &kp LC(D)         &kp LC(V)           &none   &none            &none              &none          &none  &none
+                                            &trans            &trans            &trans              &trans  &trans           &trans
             >;
         };
     };
