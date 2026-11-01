@@ -48,6 +48,13 @@
             #binding-cells = <0>;
             bindings = <&kp EXCLAMATION>, <&kp LEFT_WIN>;
         };
+
+        td_wow_run: td_wow_run {
+            compatible = "zmk,behavior-tap-dance";
+            label = "TD_WOW_RUN";
+            #binding-cells = <0>;
+            bindings = <&kp LOCKING_NUM>;
+        };
     };
 
     macros {
@@ -216,10 +223,10 @@
         wow_layer {
             display-name = "WOW";
             bindings = <
-&kp TAB       &kp Q  &kp W            &kp F                &kp P              &kp B          &kp J            &kp L               &kp U                 &kp Y             &kp SEMI  &to 0
-&kp LC(R)     &kp A  &hrm LEFT_ALT R  &hrm LEFT_CONTROL S  &hrm LEFT_SHIFT T  &kp G          &kp M            &hrm RIGHT_SHIFT N  &hrm RIGHT_CONTROL E  &hrm RIGHT_ALT I  &kp O     &kp SQT
-&kp LEFT_WIN  &kp Z  &kp X            &kp C                &kp D              &kp V          &kp K            &kp H               &kp COMMA             &kp DOT           &kp FSLH  &td_win_exp
-                                      &lt 5 ESC            &lt 9 RET          &lt 8 SPACE    &lt 1 BACKSPACE  &lt 3 TAB           &lt 4 DEL
+&kp TAB         &kp Q  &kp W  &kp F      &kp P      &kp B          &kp J            &kp L               &kp U                 &kp Y             &kp SEMI  &to 0
+&kp KP_NUMLOCK  &kp A  &kp R  &kp S      &kp T      &kp G          &kp M            &hrm RIGHT_SHIFT N  &hrm RIGHT_CONTROL E  &hrm RIGHT_ALT I  &kp O     &kp SQT
+&kp LEFT_WIN    &kp Z  &kp X  &kp C      &kp D      &kp V          &kp K            &kp H               &kp COMMA             &kp DOT           &kp FSLH  &td_win_exp
+                              &lt 5 ESC  &lt 9 RET  &lt 8 SPACE    &lt 1 BACKSPACE  &lt 3 TAB           &lt 4 DEL
             >;
         };
 
